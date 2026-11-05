@@ -1,0 +1,552 @@
+[
+  {
+    "id": "q1",
+    "question": "Cương lĩnh dân tộc của V.I. Lênin gồm bao nhiêu nguyên tắc cơ bản?",
+    "answers": [
+      "2 nguyên tắc",
+      "3 nguyên tắc",
+      "4 nguyên tắc",
+      "5 nguyên tắc"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q2",
+    "question": "Nội dung nào thể hiện nguyên tắc các dân tộc hoàn toàn bình đẳng?",
+    "answers": [
+      "Mọi dân tộc đều có quyền ngang nhau, không bị phân biệt đối xử",
+      "Dân tộc đông dân được ưu tiên hơn dân tộc ít người",
+      "Chỉ các dân tộc có quốc gia độc lập mới bình đẳng",
+      "Các dân tộc phải có phong tục, văn hóa giống nhau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q3",
+    "question": "Quyền dân tộc tự quyết được hiểu là gì?",
+    "answers": [
+      "Quyền can thiệp vào công việc của dân tộc khác",
+      "Quyền áp đặt thể chế chính trị lên dân tộc khác",
+      "Quyền quyết định mọi vấn đề không cần xét hoàn cảnh",
+      "Quyền tự quyết định vận mệnh và địa vị chính trị của dân tộc mình"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q4",
+    "question": "Theo quan điểm của Lênin, quyền dân tộc tự quyết có đồng nghĩa với việc luôn ủng hộ ly khai không?",
+    "answers": [
+      "Có, mọi dân tộc đều phải thành lập quốc gia riêng",
+      "Có, ly khai là mục tiêu cao nhất của quyền tự quyết",
+      "Không, cần xem xét hoàn cảnh lịch sử và lợi ích của nhân dân lao động",
+      "Không, vì Lênin hoàn toàn phủ nhận quyền phân lập"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q5",
+    "question": "Khi đánh giá một yêu cầu ly khai, yếu tố nào cần được xem xét?",
+    "answers": [
+      "Chỉ dựa vào số lượng dân cư",
+      "Hoàn cảnh lịch sử, tình trạng áp bức và lợi ích nhân dân lao động",
+      "Chỉ dựa vào sự khác biệt ngôn ngữ",
+      "Chỉ dựa vào diện tích lãnh thổ"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q6",
+    "question": "Nội dung “Liên hiệp công nhân tất cả các dân tộc” nhấn mạnh điều gì?",
+    "answers": [
+      "Đoàn kết người lao động giữa các dân tộc",
+      "Thành lập một quốc gia duy nhất trên thế giới",
+      "Xóa bỏ mọi bản sắc văn hóa dân tộc",
+      "Ưu tiên lợi ích của một dân tộc nhất định"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q7",
+    "question": "Vì sao cần phân biệt hai nghĩa của thuật ngữ “dân tộc” khi bàn về quyền tự quyết?",
+    "answers": [
+      "Vì mọi tộc người đều có cùng một hình thức tổ chức nhà nước",
+      "Vì dân tộc chỉ dùng để chỉ các quốc gia độc lập",
+      "Vì dân tộc có thể chỉ cộng đồng quốc gia hoặc một tộc người",
+      "Vì dân tộc và tôn giáo luôn có cùng ý nghĩa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q8",
+    "question": "Điều 5 Hiến pháp Việt Nam quy định nội dung nào về các dân tộc?",
+    "answers": [
+      "Các dân tộc phải sử dụng cùng một ngôn ngữ",
+      "Chỉ dân tộc đa số được bảo đảm quyền phát triển văn hóa",
+      "Mỗi dân tộc có quyền thành lập nhà nước riêng",
+      "Các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q9",
+    "question": "Điều 1 và Điều 11 Hiến pháp Việt Nam có liên quan trực tiếp đến nội dung nào?",
+    "answers": [
+      "Quy định số lượng các dân tộc ở Việt Nam",
+      "Khẳng định và bảo vệ độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ",
+      "Quy định tất cả dân tộc phải cư trú tập trung",
+      "Xác định một nền văn hóa duy nhất cho cả nước"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q10",
+    "question": "Nhận định nào khái quát đúng mối quan hệ giữa ba nguyên tắc trong Cương lĩnh dân tộc của Lênin?",
+    "answers": [
+      "Bình đẳng và tự quyết không liên quan đến đoàn kết",
+      "Quyền tự quyết luôn quan trọng hơn đoàn kết",
+      "Bình đẳng là nền tảng, tự quyết là quyền, liên hiệp là sức mạnh đoàn kết",
+      "Liên hiệp công nhân đồng nghĩa với xóa bỏ các dân tộc"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q11",
+    "question": "Việt Nam có bao nhiêu dân tộc cùng sinh sống?",
+    "answers": [
+      "54 dân tộc",
+      "53 dân tộc",
+      "55 dân tộc",
+      "56 dân tộc"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q12",
+    "question": "Ngoài dân tộc Kinh, Việt Nam có bao nhiêu dân tộc thiểu số?",
+    "answers": [
+      "50 dân tộc",
+      "51 dân tộc",
+      "52 dân tộc",
+      "53 dân tộc"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q13",
+    "question": "Đặc điểm nào phản ánh đúng quy mô dân số giữa các dân tộc ở Việt Nam?",
+    "answers": [
+      "Tất cả các dân tộc có số dân gần bằng nhau",
+      "Có sự chênh lệch lớn về số dân giữa các dân tộc",
+      "Các dân tộc thiểu số đều có trên một triệu người",
+      "Không có dân tộc nào chiếm đa số dân số"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q14",
+    "question": "Đặc điểm nổi bật về hình thức cư trú của các dân tộc Việt Nam là gì?",
+    "answers": [
+      "Mỗi dân tộc có một vùng lãnh thổ độc lập",
+      "Tất cả tập trung ở khu vực thành thị",
+      "Các dân tộc cư trú xen kẽ là chủ yếu",
+      "Mỗi dân tộc chỉ sinh sống tại một tỉnh"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q15",
+    "question": "Việc các dân tộc cư trú xen kẽ tạo ra thuận lợi quan trọng nào?",
+    "answers": [
+      "Loại bỏ hoàn toàn sự khác biệt văn hóa",
+      "Làm cho mọi vùng có điều kiện kinh tế như nhau",
+      "Giảm nhu cầu giao lưu giữa các cộng đồng",
+      "Tăng cường giao lưu kinh tế, văn hóa và đoàn kết"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q16",
+    "question": "Khi nhiều dân tộc cùng sinh sống trên một địa bàn, yêu cầu quan trọng đối với công tác quản lý là gì?",
+    "answers": [
+      "Tôn trọng bản sắc riêng và giải quyết hài hòa quan hệ cộng đồng",
+      "Yêu cầu mọi cộng đồng từ bỏ phong tục riêng",
+      "Áp dụng chính sách phân biệt theo dân tộc",
+      "Hạn chế sự giao lưu văn hóa giữa các dân tộc"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q17",
+    "question": "Vì sao địa bàn cư trú của nhiều dân tộc thiểu số có vị trí chiến lược quan trọng?",
+    "answers": [
+      "Vì những địa bàn này đều là trung tâm công nghiệp",
+      "Vì dân tộc thiểu số chỉ sinh sống tại đồng bằng",
+      "Vì nhiều cộng đồng sinh sống ở biên giới, miền núi và những vùng quan trọng về quốc phòng, an ninh",
+      "Vì các khu vực này hoàn toàn tách biệt với quốc gia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q18",
+    "question": "Việc đầu tư giáo dục, y tế và hạ tầng cho vùng dân tộc thiểu số nhằm giải quyết vấn đề nào?",
+    "answers": [
+      "Làm giảm sự đa dạng về văn hóa",
+      "Thu hẹp khoảng cách phát triển kinh tế – xã hội giữa các vùng",
+      "Thay thế toàn bộ hoạt động kinh tế truyền thống",
+      "Chỉ tập trung phát triển những địa phương đã giàu có"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q19",
+    "question": "Truyền thống nào được xem là nguồn sức mạnh quan trọng của cộng đồng các dân tộc Việt Nam qua lịch sử dựng nước và giữ nước?",
+    "answers": [
+      "Cạnh tranh giữa các dân tộc",
+      "Phân chia cộng đồng theo nguồn gốc",
+      "Hạn chế giao lưu giữa các vùng",
+      "Đoàn kết, gắn bó và hỗ trợ lẫn nhau"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q20",
+    "question": "Bốn nguyên tắc cơ bản trong chính sách dân tộc của Việt Nam là gì?",
+    "answers": [
+      "Bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển",
+      "Độc lập, cạnh tranh, phân chia, tự quản",
+      "Bình đẳng, đồng nhất văn hóa, tách biệt, tự chủ",
+      "Phát triển kinh tế, giảm dân số, tập trung cư trú, hội nhập"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q21",
+    "question": "Theo quan điểm của chủ nghĩa Mác – Lênin, tôn giáo là gì?",
+    "answers": [
+      "Một hiện tượng hoàn toàn độc lập với đời sống xã hội",
+      "Một hình thức tổ chức kinh tế",
+      "Một hình thái ý thức xã hội phản ánh hiện thực khách quan một cách hư ảo",
+      "Một hệ thống kiến thức khoa học thực nghiệm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q22",
+    "question": "Vì sao tôn giáo được xem là hiện tượng xã hội – văn hóa?",
+    "answers": [
+      "Vì tôn giáo không thay đổi theo thời gian",
+      "Vì tôn giáo gắn với lịch sử, niềm tin, giáo lý, nghi lễ và đời sống cộng đồng",
+      "Vì tôn giáo chỉ tồn tại trong lĩnh vực chính trị",
+      "Vì tất cả các tôn giáo đều có chung một giáo lý"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q23",
+    "question": "Nguồn gốc tự nhiên và kinh tế – xã hội của tôn giáo gắn với yếu tố nào?",
+    "answers": [
+      "Sự bất lực của con người trước một số sức mạnh tự nhiên và xã hội",
+      "Sự phát triển hoàn thiện của tri thức khoa học",
+      "Sự thống nhất của tất cả hệ thống tín ngưỡng",
+      "Việc mọi cộng đồng đều có mức sống giống nhau"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q24",
+    "question": "Việc con người trong quá khứ giải thích sấm sét bằng sức mạnh thần linh là ví dụ tiêu biểu của nguồn gốc nào?",
+    "answers": [
+      "Nguồn gốc chính trị",
+      "Nguồn gốc pháp luật",
+      "Nguồn gốc tổ chức",
+      "Nguồn gốc nhận thức"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q25",
+    "question": "Khi một người tìm đến tôn giáo để có sự an ủi, hy vọng trong lúc gặp biến cố, điều này thể hiện nguồn gốc nào?",
+    "answers": [
+      "Nguồn gốc kinh tế",
+      "Nguồn gốc địa lý",
+      "Nguồn gốc tâm lý",
+      "Nguồn gốc chính trị"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q26",
+    "question": "Theo chủ nghĩa Mác – Lênin, tôn giáo hình thành và tồn tại do sự tác động của những nguồn gốc nào?",
+    "answers": [
+      "Chỉ có nguồn gốc tâm lý",
+      "Nguồn gốc tự nhiên, kinh tế – xã hội; nhận thức và tâm lý",
+      "Chỉ có nguồn gốc kinh tế",
+      "Chỉ có nguồn gốc chính trị"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q27",
+    "question": "Tính lịch sử của tôn giáo được thể hiện như thế nào?",
+    "answers": [
+      "Tôn giáo tồn tại bất biến qua mọi thời đại",
+      "Tôn giáo không chịu tác động của xã hội",
+      "Tôn giáo chỉ xuất hiện trong xã hội hiện đại",
+      "Tôn giáo ra đời, phát triển và biến đổi trong những điều kiện lịch sử nhất định"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q28",
+    "question": "Tính quần chúng của tôn giáo thể hiện rõ nhất ở đặc điểm nào?",
+    "answers": [
+      "Có đông đảo tín đồ và gắn bó với đời sống tinh thần của nhiều cộng đồng",
+      "Chỉ tồn tại trong một tầng lớp xã hội",
+      "Không có ảnh hưởng đến đời sống văn hóa",
+      "Chỉ có chức sắc mới tham gia sinh hoạt tôn giáo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q29",
+    "question": "Tính chính trị của tôn giáo thể hiện rõ khi nào?",
+    "answers": [
+      "Khi con người thực hiện các nghi lễ truyền thống",
+      "Khi tôn giáo liên hệ với quan hệ quyền lực, mâu thuẫn lợi ích và các mục tiêu chính trị",
+      "Khi các cộng đồng cùng tham gia hoạt động từ thiện",
+      "Khi cá nhân tìm kiếm sự an ủi tinh thần"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q30",
+    "question": "Nhận định nào phù hợp nhất khi đánh giá ảnh hưởng của tôn giáo đối với xã hội?",
+    "answers": [
+      "Tôn giáo chỉ mang lại ảnh hưởng tiêu cực",
+      "Tôn giáo hoàn toàn không ảnh hưởng đến đạo đức",
+      "Tôn giáo có thể chứa đựng những giá trị nhân văn, nhân đạo và hướng thiện",
+      "Tôn giáo không có mối quan hệ với đời sống văn hóa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q31",
+    "question": "Vì sao các tôn giáo có giáo lý và niềm tin khác nhau?",
+    "answers": [
+      "Vì tất cả các tôn giáo đều hình thành cùng một thời điểm",
+      "Vì mỗi tôn giáo đều không chịu ảnh hưởng của văn hóa",
+      "Vì mọi tôn giáo chỉ xuất phát từ một nguyên nhân duy nhất",
+      "Vì điều kiện lịch sử, văn hóa, nhận thức và quá trình phát triển của từng tôn giáo khác nhau"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q32",
+    "question": "Nội dung nào là đặc điểm giáo lý nổi bật của Phật giáo?",
+    "answers": [
+      "Khổ đau, nguyên nhân khổ đau và con đường giải thoát",
+      "Niềm tin vào Chúa Giêsu và sự cứu độ",
+      "Dung hợp các giáo lý của nhiều tôn giáo khác nhau",
+      "Chỉ tập trung vào việc tổ chức quyền lực nhà nước"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q33",
+    "question": "Niềm tin vào Thiên Chúa, Chúa Giêsu và sự cứu độ là đặc điểm tiêu biểu của tôn giáo nào?",
+    "answers": [
+      "Phật giáo",
+      "Kitô giáo",
+      "Đạo Cao Đài",
+      "Phật giáo Hòa Hảo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q34",
+    "question": "Đặc điểm nổi bật của giáo lý đạo Cao Đài là gì?",
+    "answers": [
+      "Hoàn toàn không có yếu tố tín ngưỡng",
+      "Chỉ tiếp nhận một hệ thống tư tưởng duy nhất",
+      "Có sự dung hợp nhiều truyền thống tư tưởng và tôn giáo",
+      "Không chịu ảnh hưởng của văn hóa Việt Nam"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q35",
+    "question": "Theo quan điểm của chủ nghĩa Mác – Lênin, tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội sẽ như thế nào?",
+    "answers": [
+      "Bị xóa bỏ ngay bằng mệnh lệnh hành chính",
+      "Hoàn toàn biến mất khi kinh tế bắt đầu phát triển",
+      "Không còn ảnh hưởng đến đời sống nhân dân",
+      "Tiếp tục tồn tại và biến đổi trong quá trình phát triển xã hội"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q36",
+    "question": "Vì sao tôn giáo vẫn tiếp tục tồn tại trong thời kỳ quá độ lên CNXH?",
+    "answers": [
+      "Vì mọi vấn đề kinh tế – xã hội đã được giải quyết",
+      "Vì các nguồn gốc hình thành tôn giáo vẫn còn và tôn giáo gắn với đời sống tinh thần, văn hóa",
+      "Vì tôn giáo không chịu tác động của điều kiện lịch sử",
+      "Vì niềm tin tôn giáo chỉ phụ thuộc vào pháp luật"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q37",
+    "question": "Biện pháp nào phù hợp nhất với quan điểm của chủ nghĩa Mác – Lênin trong giải quyết vấn đề tôn giáo?",
+    "answers": [
+      "Cưỡng ép mọi người từ bỏ niềm tin tôn giáo",
+      "Hạn chế mọi hoạt động sinh hoạt tôn giáo",
+      "Tôn trọng tự do tín ngưỡng, cải thiện đời sống và từng bước khắc phục ảnh hưởng tiêu cực",
+      "Đồng nhất mọi hoạt động tôn giáo với hành vi chính trị"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q38",
+    "question": "Nội dung nào sau đây không thuộc bốn nguyên tắc giải quyết vấn đề tôn giáo trong thời kỳ quá độ lên CNXH?",
+    "answers": [
+      "Xóa bỏ ngay mọi tôn giáo bằng các biện pháp cưỡng bức",
+      "Tôn trọng quyền tự do tín ngưỡng và không tín ngưỡng",
+      "Phân biệt hai mặt chính trị và tư tưởng của tôn giáo",
+      "Vận dụng quan điểm lịch sử cụ thể"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q39",
+    "question": "Việc phân biệt mặt chính trị và mặt tư tưởng của tôn giáo nhằm mục đích gì?",
+    "answers": [
+      "Cho rằng mọi niềm tin tôn giáo đều là hành vi chính trị",
+      "Khẳng định các tôn giáo không liên quan đến xã hội",
+      "Xóa bỏ sự khác biệt về thế giới quan giữa con người",
+      "Tránh đánh đồng niềm tin tôn giáo với việc lợi dụng tôn giáo vì mục đích chính trị"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q40",
+    "question": "Việc xem xét từng tôn giáo trong hoàn cảnh lịch sử, văn hóa và xã hội cụ thể thể hiện nguyên tắc nào?",
+    "answers": [
+      "Nguyên tắc bình quân",
+      "Nguyên tắc áp dụng máy móc",
+      "Nguyên tắc lịch sử cụ thể",
+      "Nguyên tắc đồng nhất tôn giáo"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q41",
+    "question": "Nội dung nào sau đây phản ánh đúng một đặc điểm tôn giáo ở Việt Nam?",
+    "answers": [
+      "Các tôn giáo đa dạng, đan xen và có truyền thống chung sống hòa bình",
+      "Các tôn giáo đều hình thành cùng một thời điểm",
+      "Mỗi tôn giáo chỉ tồn tại ở một địa phương",
+      "Các tôn giáo không có quan hệ với văn hóa dân tộc"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q42",
+    "question": "Cặp tôn giáo nào sau đây được hình thành tại Việt Nam?",
+    "answers": [
+      "Phật giáo và Công giáo",
+      "Cao Đài và Phật giáo Hòa Hảo",
+      "Tin Lành và Hồi giáo",
+      "Công giáo và Tin Lành"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q43",
+    "question": "Chức sắc tôn giáo có vai trò như thế nào trong cộng đồng tín đồ?",
+    "answers": [
+      "Không có ảnh hưởng đến tín đồ",
+      "Chỉ thực hiện chức năng quản lý kinh tế",
+      "Chỉ tham gia các hoạt động của cơ quan nhà nước",
+      "Có uy tín và ảnh hưởng quan trọng trong tổ chức, đời sống tôn giáo"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q44",
+    "question": "Quan hệ giữa các tổ chức tôn giáo ở Việt Nam với tổ chức, cá nhân tôn giáo nước ngoài cần được nhìn nhận như thế nào?",
+    "answers": [
+      "Mọi quan hệ quốc tế đều là hành vi vi phạm",
+      "Cần ngăn cấm hoàn toàn mọi hoạt động giao lưu",
+      "Kết hợp giao lưu, hợp tác phù hợp pháp luật với bảo đảm độc lập, chủ quyền quốc gia",
+      "Không cần quan tâm đến quy định pháp luật Việt Nam"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q45",
+    "question": "Theo quan điểm của Đảng, nội dung cốt lõi của công tác tôn giáo là gì?",
+    "answers": [
+      "Công tác vận động quần chúng",
+      "Công tác phát triển công nghiệp",
+      "Công tác quản lý hoạt động thương mại",
+      "Công tác tổ chức các lễ hội văn hóa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "q46",
+    "question": "Theo chính sách của Đảng, công tác tôn giáo là trách nhiệm của ai?",
+    "answers": [
+      "Chỉ của các chức sắc tôn giáo",
+      "Của cả hệ thống chính trị",
+      "Chỉ của các cơ sở tín ngưỡng",
+      "Chỉ của những người có tôn giáo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q47",
+    "question": "Điều nào của Hiến pháp năm 2013 quy định quyền tự do tín ngưỡng, tôn giáo?",
+    "answers": [
+      "Điều 5",
+      "Điều 11",
+      "Điều 24",
+      "Điều 55"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": "q48",
+    "question": "Theo Điều 5 Luật Tín ngưỡng, tôn giáo năm 2016, hành vi nào sau đây bị nghiêm cấm?",
+    "answers": [
+      "Tự nguyện tham gia sinh hoạt tôn giáo hợp pháp",
+      "Thực hiện quyền tự do tín ngưỡng",
+      "Tham gia hoạt động từ thiện theo pháp luật",
+      "Kỳ thị, ép buộc hoặc lợi dụng hoạt động tôn giáo để trục lợi"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": "q49",
+    "question": "Điều 55 Luật Tín ngưỡng, tôn giáo năm 2016 quy định nội dung nào?",
+    "answers": [
+      "Mọi cơ sở tôn giáo được miễn mọi nghĩa vụ pháp luật",
+      "Tổ chức tôn giáo được tham gia hoạt động giáo dục, y tế, bảo trợ xã hội, từ thiện và nhân đạo theo pháp luật liên quan",
+      "Tổ chức tôn giáo được tự quyết định chính sách quốc gia",
+      "Chỉ các cơ quan nhà nước mới được tham gia hoạt động từ thiện"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": "q50",
+    "question": "Nhận định nào tổng hợp đúng nhất bài học về xây dựng chủ nghĩa xã hội từ vấn đề dân tộc và tôn giáo?",
+    "answers": [
+      "Phát huy đại đoàn kết, bảo đảm quyền con người và thực thi pháp luật công bằng; đồng thời mỗi cá nhân cần có trách nhiệm với cộng đồng",
+      "Chỉ cần tập trung phát triển kinh tế, không cần quan tâm đời sống tinh thần",
+      "Mọi sự khác biệt về dân tộc và tôn giáo đều là trở lực cần loại bỏ",
+      "Việc xây dựng xã hội là trách nhiệm riêng của Nhà nước, không liên quan đến công dân"
+    ],
+    "correctIndex": 0
+  }
+]
