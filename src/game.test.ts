@@ -20,9 +20,8 @@ describe('snake quiz rules', () => {
     expect(2 + getBoostGain(10, 10)).toBe(8);
     expect(1 + getBoostGain(20, 20)).toBe(7.5);
   });
-  it('sequences correct, combo and speed cues in order', () => {
-    expect(getAnswerSoundSequence(4)).toEqual(['correct', 'speed']);
-    expect(getAnswerSoundSequence(5)).toEqual(['correct', 'combo', 'speed']);
+  it('keeps combo audio out of one-shot cues because combo audio is the boost loop', () => {
+    expect(getAnswerSoundSequence()).toEqual(['correct', 'speed']);
   });
   it('pauses movement and boost advancement while a quiz or resume prompt is visible', () => {
     expect(canAdvanceGame({ quizOpen: true, gameOver: false, playLoaded: true, appleReady: true })).toBe(false);

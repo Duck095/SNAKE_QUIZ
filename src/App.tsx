@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, Check, ChevronRight, Crown, Gamepad2, MoveUpRight, RotateCcw, ShieldCheck, Sparkles, Trophy, Volume2, Zap } from 'lucide-react';
 import { applyAnswer, canAdvanceGame, formatElapsed, getAnswerSoundSequence, getBoardCells, getBoostGain, getMoveIntervalMs, getPenalty, GRID_SIZE, isCollision, moveSnake, randomApple, type Direction, type Point } from './game';
+import { BoostAudioController } from './boostAudio';
 import { getRoutePath } from './routing';
 import { getCountdownLabel, getQuizKeyAction, getSafeDirection, isReverseDirection, restoreGamePhase, type GamePhase } from './gameFlow';
 import { endPlaySnapshot, getOrCreatePlayerId, parsePlaySnapshot, playPath, serializePlaySnapshot, snapshotKey } from './playSession';
@@ -130,7 +131,12 @@ function Game({ go, player, playerId, onDone }: { go: (path: string) => void; pl
   const restoredPhase = resumeSnapshot ? restoreGamePhase(resumeSnapshot) : 'playing';
   const [phase, setPhase] = useState<GamePhase>(restoredPhase);
   const phaseRef = useRef<GamePhase>(restoredPhase);
-  const transitionTo = (next: GamePhase) => { phaseRef.current = next; setPhase(next); };
+  const boostAudio = useRef<BoostAudioController | null>(null);
+  const transitionTo = (next: GamePhase) => {
+    phaseRef.current = next;
+    setPhase(next);
+    if (next === 'game-over') boostAudio.current?.stop();
+  };
   const [directionNotice, setDirectionNotice] = useState('');
   const [selectedAnswer, setSelectedAnswer] = useState(0);
   const [feedbackStartedAt, setFeedbackStartedAt] = useState(resumeSnapshot?.feedbackStartedAt);
@@ -154,6 +160,21 @@ function Game({ go, player, playerId, onDone }: { go: (path: string) => void; pl
   const [attemptPlayerId, setAttemptPlayerId] = useState(playerId);
   const [isMuted, setIsMuted] = useState(muted);
   const startAt = useRef(resumeSnapshot?.startedAt ?? Date.now());
+
+  useEffect(() => {
+    const audio = new Audio('/sounds/combo.mp3');
+    audio.volume = 0.45;
+    const controller = new BoostAudioController(audio);
+    boostAudio.current = controller;
+    return () => {
+      controller.stop();
+      if (boostAudio.current === controller) boostAudio.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
+    boostAudio.current?.sync({ boostSeconds, phase, muted: isMuted, playLoaded: Boolean(playId) });
+  }, [boostSeconds, isMuted, phase, playId]);
 
   useEffect(() => {
     let active = true;
@@ -242,7 +263,10 @@ function Game({ go, player, playerId, onDone }: { go: (path: string) => void; pl
         setSelectedAnswer(0);
         transitionTo('quiz');
       }
-      if (boostSeconds > 0) setBoostSeconds((value) => Math.max(0, value - intervalMs / 1000));
+      if (boostSeconds > 0) {
+        if (boostSeconds <= intervalMs / 1000) boostAudio.current?.stop();
+        setBoostSeconds((value) => Math.max(0, value - intervalMs / 1000));
+      }
     }, intervalMs);
     return () => window.clearInterval(interval);
   }, [apple, boostSeconds, gameOver, phase, playId, questionIndex, questions]);
@@ -350,7 +374,7 @@ function Game({ go, player, playerId, onDone }: { go: (path: string) => void; pl
       setStreak(nextStreak);
       const bonus = getBoostGain(totalQuestions, nextStreak);
       setBoostSeconds((value) => value + bonus);
-      playSoundSequence(getAnswerSoundSequence(nextStreak));
+      playSoundSequence(getAnswerSoundSequence());
     } else {
       setStreak(0);
       playSoundSequence(['wrong']);
@@ -375,6 +399,12 @@ function Game({ go, player, playerId, onDone }: { go: (path: string) => void; pl
   };
 
   const quit = () => { transitionTo('game-over'); playSoundSequence(['game-over']); };
+  const toggleMute = () => {
+    muted = !muted;
+    setIsMuted(muted);
+    if (muted) boostAudio.current?.stop();
+    else boostAudio.current?.sync({ boostSeconds, phase, muted: false, playLoaded: Boolean(playId) });
+  };
   return <main className="game-shell">
     <header className="game-top">
       <button className="brand" onClick={() => go('/')}><span className="brand-mark"><Gamepad2 size={20} /></span><span>SNAKE<span className="brand-accent">QUIZ</span></span></button>
@@ -404,7 +434,7 @@ function Game({ go, player, playerId, onDone }: { go: (path: string) => void; pl
         <div className="stat-card"><span><Sparkles size={16} /> CHIỀU DÀI</span><b>{length}<small> khúc</small></b><div className="meter"><i style={{ width: `${Math.min(100, length * 5)}%` }} /></div></div>
         <div className="stat-card"><span><Check size={16} /> CÂU ĐÚNG</span><b>{correct}<small> câu</small></b><small>{streak > 1 ? `${streak} câu liên tiếp!` : 'Mỗi đáp án đúng giúp rắn dài ra.'}</small></div>
         <div className="rules-card"><span className="section-kicker">COMBO BOOST</span>{[[5,'+1.5s'],[10,'+3s'],[20,'+5s']].map(([count,bonus])=><div className="combo-row" key={count}><span>{count} đúng liên tiếp</span><b>{bonus}</b></div>)}<div className="speed-note"><Zap size={14} /> TỐC ĐỘ {boostSeconds > 0 ? '175' : '260'}MS / Ô</div></div>
-        <button className="mute-button" onClick={() => { muted = !muted; setIsMuted(muted); }}><Volume2 size={15} /> Âm thanh {isMuted ? 'tắt' : 'bật'}</button>
+        <button className="mute-button" onClick={toggleMute}><Volume2 size={15} /> Âm thanh {isMuted ? 'tắt' : 'bật'}</button>
       </aside>
     </div>
   </main>;

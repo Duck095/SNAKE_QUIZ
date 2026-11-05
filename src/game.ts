@@ -26,8 +26,9 @@ export function getBoostGain(totalQuestions: number, streak: number): number {
   return getSpeedSeconds(totalQuestions) + getComboBonus(streak);
 }
 
-export function getAnswerSoundSequence(streak: number): string[] {
-  return ['correct', ...(getComboBonus(streak) > 0 ? ['combo'] : []), 'speed'];
+export function getAnswerSoundSequence(): string[] {
+  // combo.mp3 is reserved for the boost loop, so never queue it as a one-shot cue.
+  return ['correct', 'speed'];
 }
 
 export function canAdvanceGame(state: { quizOpen: boolean; paused?: boolean; gameOver: boolean; playLoaded: boolean; appleReady: boolean }): boolean {
